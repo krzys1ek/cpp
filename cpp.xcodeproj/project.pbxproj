@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		E22E0E8F21E3B9AD005D728C /* cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22E0E9221E3B9AE005D728C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E22E0E9A21E3BA04005D728C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E22E0E9C21E3BACE005D728C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,8 @@
 		E22E0E8621E3B9AD005D728C = {
 			isa = PBXGroup;
 			children = (
+				E22E0E9B21E3BAB2005D728C /* proste_dodawanie */,
+				E22E0E9921E3B9DA005D728C /* liczby_pierwsze */,
 				E22E0E9121E3B9AD005D728C /* cpp */,
 				E22E0E9021E3B9AD005D728C /* Products */,
 			);
@@ -60,6 +64,22 @@
 				E22E0E9221E3B9AE005D728C /* main.cpp */,
 			);
 			path = cpp;
+			sourceTree = "<group>";
+		};
+		E22E0E9921E3B9DA005D728C /* liczby_pierwsze */ = {
+			isa = PBXGroup;
+			children = (
+				E22E0E9A21E3BA04005D728C /* main.cpp */,
+			);
+			path = liczby_pierwsze;
+			sourceTree = "<group>";
+		};
+		E22E0E9B21E3BAB2005D728C /* proste_dodawanie */ = {
+			isa = PBXGroup;
+			children = (
+				E22E0E9C21E3BACE005D728C /* main.cpp */,
+			);
+			path = proste_dodawanie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
