@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E22E0E9321E3B9AE005D728C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E22E0E9221E3B9AE005D728C /* main.cpp */; };
-		E22E0EA021E4032A005D728C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E22E0E9E21E40204005D728C /* main.cpp */; };
-		E22E0EA121E40335005D728C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E22E0E9C21E3BACE005D728C /* main.cpp */; };
+		E2E076D021E4B0E20038A217 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B921C221E4AF54006D4B57 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,11 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E22E0E8F21E3B9AD005D728C /* cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22E0E9221E3B9AE005D728C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E22E0E9A21E3BA04005D728C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E22E0E9C21E3BACE005D728C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E22E0E9E21E40204005D728C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E2B921C221E4AF54006D4B57 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E2E076CF21E4B0BD0038A217 /* cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = cpp; path = "/Users/krzysztof/Documents/c++/cpp/build/Debug/cpp"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,20 +45,12 @@
 		E22E0E8621E3B9AD005D728C = {
 			isa = PBXGroup;
 			children = (
+				E2B921C121E4AF23006D4B57 /* modulo */,
 				E22E0E9D21E401E9005D728C /* tabliczka_mnozenia */,
 				E22E0E9B21E3BAB2005D728C /* proste_dodawanie */,
 				E22E0E9921E3B9DA005D728C /* liczby_pierwsze */,
 				E22E0E9121E3B9AD005D728C /* cpp */,
-				E22E0E9021E3B9AD005D728C /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		E22E0E9021E3B9AD005D728C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E22E0E8F21E3B9AD005D728C /* cpp */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		E22E0E9121E3B9AD005D728C /* cpp */ = {
@@ -94,6 +85,14 @@
 			path = tabliczka_mnozenia;
 			sourceTree = "<group>";
 		};
+		E2B921C121E4AF23006D4B57 /* modulo */ = {
+			isa = PBXGroup;
+			children = (
+				E2B921C221E4AF54006D4B57 /* main.cpp */,
+			);
+			path = modulo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -111,7 +110,7 @@
 			);
 			name = cpp;
 			productName = cpp;
-			productReference = E22E0E8F21E3B9AD005D728C /* cpp */;
+			productReference = E2E076CF21E4B0BD0038A217 /* cpp */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +135,7 @@
 				en,
 			);
 			mainGroup = E22E0E8621E3B9AD005D728C;
-			productRefGroup = E22E0E9021E3B9AD005D728C /* Products */;
+			productRefGroup = E22E0E8621E3B9AD005D728C;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -150,9 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E22E0EA021E4032A005D728C /* main.cpp in Sources */,
-				E22E0E9321E3B9AE005D728C /* main.cpp in Sources */,
-				E22E0EA121E40335005D728C /* main.cpp in Sources */,
+				E2E076D021E4B0E20038A217 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
