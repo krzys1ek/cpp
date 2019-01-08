@@ -26,7 +26,7 @@ int main()
 
 double num_netto(double brutto, double vat)
 {
-    double netto = brutto / (1+(vat/100));  // pattern for calculate netto price form brutto
+    double netto = brutto / (1+(vat/100));  // pattern for calculate netto price from brutto
     
     return netto;
 }
