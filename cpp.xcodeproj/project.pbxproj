@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E2E076D021E4B0E20038A217 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B921C221E4AF54006D4B57 /* main.cpp */; };
+		E250302021E54CDD002081D6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E250301F21E54CDD002081D6 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +27,9 @@
 		E22E0E9A21E3BA04005D728C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E22E0E9C21E3BACE005D728C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E22E0E9E21E40204005D728C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E250301D21E54CAA002081D6 /* cpp */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.executable"; name = cpp; path = "/Users/krzysztof/Documents/c++/cpp/build/Debug/cpp"; sourceTree = "<absolute>"; };
+		E250301F21E54CDD002081D6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E2B921C221E4AF54006D4B57 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		E2E076CF21E4B0BD0038A217 /* cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = cpp; path = "/Users/krzysztof/Documents/c++/cpp/build/Debug/cpp"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 		E22E0E8621E3B9AD005D728C = {
 			isa = PBXGroup;
 			children = (
+				E250301E21E54CC1002081D6 /* price_calculator */,
 				E2B921C121E4AF23006D4B57 /* modulo */,
 				E22E0E9D21E401E9005D728C /* tabliczka_mnozenia */,
 				E22E0E9B21E3BAB2005D728C /* proste_dodawanie */,
@@ -85,6 +87,14 @@
 			path = tabliczka_mnozenia;
 			sourceTree = "<group>";
 		};
+		E250301E21E54CC1002081D6 /* price_calculator */ = {
+			isa = PBXGroup;
+			children = (
+				E250301F21E54CDD002081D6 /* main.cpp */,
+			);
+			path = price_calculator;
+			sourceTree = "<group>";
+		};
 		E2B921C121E4AF23006D4B57 /* modulo */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,7 +120,7 @@
 			);
 			name = cpp;
 			productName = cpp;
-			productReference = E2E076CF21E4B0BD0038A217 /* cpp */;
+			productReference = E250301D21E54CAA002081D6 /* cpp */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -149,7 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2E076D021E4B0E20038A217 /* main.cpp in Sources */,
+				E250302021E54CDD002081D6 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
