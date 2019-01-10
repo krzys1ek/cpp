@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E250302021E54CDD002081D6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E250301F21E54CDD002081D6 /* main.cpp */; };
+		E289A01C21E7BD6E00060BDE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E289A01B21E7BD6E00060BDE /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,8 +27,9 @@
 		E22E0E9A21E3BA04005D728C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E22E0E9C21E3BACE005D728C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E22E0E9E21E40204005D728C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		E250301D21E54CAA002081D6 /* cpp */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.executable"; name = cpp; path = "/Users/krzysztof/Documents/c++/cpp/build/Debug/cpp"; sourceTree = "<absolute>"; };
 		E250301F21E54CDD002081D6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E289A01921E7BD3100060BDE /* cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp; sourceTree = BUILT_PRODUCTS_DIR; };
+		E289A01B21E7BD6E00060BDE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E2B921C221E4AF54006D4B57 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,12 +47,14 @@
 		E22E0E8621E3B9AD005D728C = {
 			isa = PBXGroup;
 			children = (
+				E289A01A21E7BD5400060BDE /* christmas_tree */,
 				E250301E21E54CC1002081D6 /* price_calculator */,
 				E2B921C121E4AF23006D4B57 /* modulo */,
 				E22E0E9D21E401E9005D728C /* tabliczka_mnozenia */,
 				E22E0E9B21E3BAB2005D728C /* proste_dodawanie */,
 				E22E0E9921E3B9DA005D728C /* liczby_pierwsze */,
 				E22E0E9121E3B9AD005D728C /* cpp */,
+				E289A01921E7BD3100060BDE /* cpp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +98,14 @@
 			path = price_calculator;
 			sourceTree = "<group>";
 		};
+		E289A01A21E7BD5400060BDE /* christmas_tree */ = {
+			isa = PBXGroup;
+			children = (
+				E289A01B21E7BD6E00060BDE /* main.cpp */,
+			);
+			path = christmas_tree;
+			sourceTree = "<group>";
+		};
 		E2B921C121E4AF23006D4B57 /* modulo */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,7 +131,7 @@
 			);
 			name = cpp;
 			productName = cpp;
-			productReference = E250301D21E54CAA002081D6 /* cpp */;
+			productReference = E289A01921E7BD3100060BDE /* cpp */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -159,7 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E250302021E54CDD002081D6 /* main.cpp in Sources */,
+				E289A01C21E7BD6E00060BDE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
