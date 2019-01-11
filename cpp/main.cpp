@@ -1,10 +1,15 @@
-
-
-
 #include <iostream>
+#include <vector>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace std;
+
+int main()
+{
+    vector<double> liczby{3.14, 3.1, 7.54};
+    for (auto elem : liczby)
+    {
+        cout << elem << ", ";
+    };
+    
     return 0;
 }
