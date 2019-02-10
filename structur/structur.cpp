@@ -11,13 +11,13 @@ struct inflatable
 
 int main()
 {
-    inflatable guest = 
+    inflatable guest = // mozna ominać znak =
     {
         "Glorious Gloria", // wartosc pola name
         1.88,  // wartosc pola volume
         29.99   // wartosc pola price
-    }; // guest to zmienna strukturalna typu inflatable.
-    // zmienną tę inicjalizujemy wartościmi jak powyej.
+    };  // guest to zmienna strukturalna typu inflatable.
+        // zmienną tę inicjalizujemy wartościmi jak powyej.
 
     inflatable pal =
     {
