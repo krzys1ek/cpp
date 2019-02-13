@@ -13,23 +13,27 @@
  * value of Daphne's investment and then displays the value of both
  * investments at that time.
  */
-
 #include <iostream>
+
+using namespace std;
+
 int main()
 {
-    using namespace std;
-    double daphne = 100;
+    double dafne = 100;
     double cleo = 100;
     int year;
-    for (year = 0; cleo <= daphne; year++)
+
+    for(year = 0; cleo <= dafne; year++)
     {
-        daphne += 100 * 0.10;
-        cleo += cleo * 0.05;
+        dafne = dafne + (100 * 0.10);
+        cleo = cleo + (cleo * 0.05);
+
     }
     cout << "After " << year << " years,\n";
     cout << "the value of Cleo's investment "
          << " exceed the value of Daphne's." << endl;
-    cout << "Daphne has $" << daphne << " and Cleo has $" << cleo
+    cout << "Daphne has $" << dafne << " and Cleo has $" << cleo
          << ".\n";
+
     return 0;
 }
