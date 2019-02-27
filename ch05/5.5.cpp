@@ -15,9 +15,10 @@ using namespace std;
 
 int main()
 {
-    const char *months[12] =
+    const char * months[12] =
         {
-            "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
+            "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
+        };
 
     int sale[3][12];
     int total[3] = {};
