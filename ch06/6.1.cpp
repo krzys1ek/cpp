@@ -14,7 +14,7 @@ int main()
     while (ch != '@')
     {
         if (!isdigit(ch))
-        {
+        { 
             if (islower(ch))
                 cout << char(toupper(ch));
             else if (isupper(ch))

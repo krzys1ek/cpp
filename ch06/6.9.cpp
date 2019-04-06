@@ -38,7 +38,7 @@ int main()
     }
     int num;
     inFile >> num;
-    donor * donors = new donor[num];
+    donor *donors = new donor[num];
     for (int i = 0; i < num; i++)
     {
         inFile.get();
